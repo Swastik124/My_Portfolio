@@ -11,8 +11,11 @@ return (
         {/* Left: Text */}
         <div className="w-full lg:w-1/2">
           <p className="text-4xl mb-5 text-slate-300">I'm</p>
-          <h1 className="text-6xl">Swastik Kumar Mohanty</h1>
-          <hr />
+        <div className="inline-block">
+                <h1 className="text-6xl">Swastik Kumar Mohanty</h1>
+                <hr className="border-t-4 border-indigo-400 w-full mt-2 mb-2" />
+        </div>
+
           <p className="mt-10 text-slate-300 font-sans">
             A Electronics & Instrumentation Engineering student passionate about cybersecurity, with hands-on experience in programming, network fundamentals, and web development. Skilled in solving complex challenges through projects and continuous learning. Committed to contributing to a secure digital world by adapting and growing with evolving technologies.
           </p>
