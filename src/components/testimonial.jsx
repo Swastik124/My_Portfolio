@@ -5,7 +5,7 @@ export default function Testimonial() {
       className="bg-indigo-800 m-4 md:m-20 max-w-full rounded-3xl p-4 md:p-10 text-white"
     >
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl mb-6 text-white">Testimonials</h2>
+        <h2 className="text-4xl font-bold bg-white from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-8 tracking-wide border-b-4 border-indigo-500 pb-2 mb-6">Testimonials</h2>
       </div>
 
       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-4 md:p-6">
@@ -24,10 +24,10 @@ export default function Testimonial() {
 
           <div className="bg-white shadow-md rounded-lg p-4 md:p-6">
             <h4 className="text-base md:text-lg font-bold mb-2 text-gray-700">
-              Travelocity Website Clone
+              Smart Cafeteria System
             </h4>
             <p className="text-gray-600 text-sm md:text-base">
-              Developed a responsive and user-friendly interface using React, HTML, and CSS. Utilized React's component-based architecture for reusable UI components. Integrated React Router for seamless navigation.
+              A smart cafeteria ordering system using ESP32, Bluetooth, and WiFi that allows users to place orders via Bluetooth commands and view real-time updates on a web interface. Orders are logged on an SD card, and the menu is dynamically loaded from a JSON file.
             </p>
           </div>
         </div>

@@ -19,7 +19,7 @@ function closeMenu(){
     <>
         <div className="flex items-center justify-between p-10 lg:flex-row">
             <div>
-                <a href="#" className="text-white font-mono text-3xl tracking-wider flex items-center"><CgNametag/>Crafting Innovation in Tech & Cybersecurity</a>
+                <a href="#" className="text-white font-bold text-2xl tracking-wider flex items-center"><CgNametag size={40}/>Crafting Innovation in Tech & Cybersecurity</a>
             </div>
             <div className="space-x-4">
                 <div className='hidden lg:block space-x-2'>

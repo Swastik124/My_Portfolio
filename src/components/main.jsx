@@ -3,6 +3,7 @@ import Hero from "./hero"
 import Project from "./project"
 import Testimonial from "./testimonial"
 import Footer from "./footer"
+import Skills from "./SkillsSection"
 
 const main = () => {
   return (
@@ -12,6 +13,7 @@ const main = () => {
         <Hero />
       </section>
       <section id="skills">
+        <Skills />
       </section>
       <section id="projects">
         <Project />

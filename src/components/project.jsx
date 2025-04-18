@@ -7,7 +7,7 @@ export default function Project() {
     <>
       <div className="bg-indigo-800 m-4 md:m-20 max-w-full rounded-3xl">
         <div className="grid justify-items-center m-6 md:m-10">
-          <h1 className="text-3xl text-white mt-10">Projects</h1>
+          <h1 className="text-4xl font-bold bg-white from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-8 tracking-wide border-b-4 border-indigo-500 pb-2 mt-10">Projects</h1>
         </div>
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-5">
