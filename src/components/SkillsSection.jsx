@@ -39,7 +39,7 @@ const frameworks = [
   { name: 'GitHub', icon: GithubIcon },
   { name: 'WordPress', icon: WordpressIcon },
   { name: 'React', icon: ReactIcon },
-  { name: 'Bash Scripting', icon: HtmlIcon },
+  { name: 'Bash Scripting', icon: BashIcon },
 ]
 
 const databases = [
