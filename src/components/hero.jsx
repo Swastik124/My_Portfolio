@@ -5,17 +5,21 @@ import Ppic from '../assets/pic.jpeg'
 import Gmail from '../assets/gmail.svg'
 import pdf from '../assets/Swastik_Kumar_Mohanty.pdf'
 
-const hero = () => {
-return (
-        <section className="flex flex-col lg:flex-row justify-between items-center p-10 space-y-10 lg:space-y-0 lg:space-x-10 text-white">
+const Hero = () => {
+  return (
+    <section className="relative bg-black overflow-hidden">
+      {/* Transparent black overlay */}
+      <div className="absolute inset-0 bg-black bg-opacity-60 pointer-events-none"></div>
+      
+      {/* Content above overlay */}
+      <div className="relative z-10 flex flex-col lg:flex-row justify-between items-center p-10 space-y-10 lg:space-y-0 lg:space-x-10 text-white">
         {/* Left: Text */}
         <div className="w-full lg:w-1/2">
           <p className="text-4xl mb-5 text-slate-300">I'm</p>
-        <div className="inline-block">
-                <h1 className="text-6xl">Swastik Kumar Mohanty</h1>
-                <hr className="border-t-4 border-indigo-400 w-full mt-2 mb-2" />
-        </div>
-
+          <div className="inline-block">
+            <h1 className="text-6xl">Swastik Kumar Mohanty</h1>
+            <hr className="border-t-4 border-indigo-400 w-full mt-2 mb-2" />
+          </div>
           <p className="mt-10 text-slate-300 font-sans">
             A Electronics & Instrumentation Engineering student passionate about cybersecurity, with hands-on experience in programming, network fundamentals, and web development. Skilled in solving complex challenges through projects and continuous learning. Committed to contributing to a secure digital world by adapting and growing with evolving technologies.
           </p>
@@ -36,7 +40,7 @@ return (
             download="Swastik_Kumar_Mohanty_Resume.pdf"
             className="cursor-pointer"
           >
-            <button className="bg-white text-indigo-600 px-10 py-2 my-3 rounded-full hover:bg-indigo-800 hover:text-white">
+            <button className="bg-white text-indigo-600 px-10 py-2 my-3 rounded-full hover:bg-indigo-800 hover:text-white cursor-pointer">
               About Me
             </button>
           </a>
@@ -53,9 +57,9 @@ return (
             </a>
           </div>
         </div>
-      </section>
-      
-)
+      </div>
+    </section>
+  )
 }
 
-export default hero
+export default Hero
