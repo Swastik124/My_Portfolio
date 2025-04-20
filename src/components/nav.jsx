@@ -3,7 +3,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { HiMenuAlt1 } from 'react-icons/hi';
 import { useState } from 'react';
 
-const nav = () => {
+const Nav = () => {
   const [toggle, setToggle] = useState(false);
 
   function openMenu() {
@@ -15,12 +15,12 @@ const nav = () => {
   }
 
   return (
-    // Black background with transparent black overlay
+    
     <div className="relative bg-black">
-      {/* Transparent black overlay */}
+      
       <div className="absolute inset-0 bg-black opacity-60 pointer-events-none"></div>
       
-      {/* Navigation content above overlay */}
+      
       <div className="relative z-10">
         <div className="flex items-center justify-between p-10 lg:flex-row">
           <div>
@@ -45,7 +45,7 @@ const nav = () => {
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        
         <div className="block lg:hidden">
           {toggle ? (
             <div className="flex justify-between ml-10">
@@ -68,4 +68,4 @@ const nav = () => {
   );
 };
 
-export default nav;
+export default Nav;

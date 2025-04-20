@@ -8,12 +8,12 @@ import pdf from '../assets/Swastik_Kumar_Mohanty.pdf'
 const Hero = () => {
   return (
     <section className="relative bg-black overflow-hidden">
-      {/* Transparent black overlay */}
+      
       <div className="absolute inset-0 bg-black bg-opacity-60 pointer-events-none"></div>
       
       {/* Content above overlay */}
       <div className="relative z-10 flex flex-col lg:flex-row justify-between items-center p-10 space-y-10 lg:space-y-0 lg:space-x-10 text-white">
-        {/* Left: Text */}
+        
         <div className="w-full lg:w-1/2">
           <p className="text-4xl mb-5 text-slate-300">I'm</p>
           <div className="inline-block">
@@ -25,7 +25,7 @@ const Hero = () => {
           </p>
         </div>
       
-        {/* Right: Image and Contact */}
+        
         <div className="w-full lg:w-1/2 flex flex-col items-center space-y-8">
           <img
             src={Ppic}

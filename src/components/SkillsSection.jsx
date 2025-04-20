@@ -50,12 +50,11 @@ const databases = [
 const SkillsSection = () => {
   return (
     <section className="relative bg-black overflow-hidden py-10">
-      {/* Transparent black overlay */}
+
       <div className="absolute inset-0 bg-black bg-opacity-60 pointer-events-none"></div>
       
-      {/* Content above overlay */}
+
       <div className="relative z-10 flex flex-col lg:flex-row justify-between items-center p-10 space-y-10 lg:space-y-0 lg:space-x-10 text-white">
-        {/* Left: Skills List */}
         <div className="w-full lg:w-2/3">
           <h2 className="text-4xl font-bold bg-white from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-8 tracking-wide border-b-4 border-indigo-500 pb-2">
             Technical Skills

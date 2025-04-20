@@ -49,7 +49,7 @@ export default function Project() {
                 height={120}
                 className="mr-0 md:mr-6 mb-6 md:mb-0 rounded-xl"
               />
-              <div className="flex-1 text-center">
+              <div className="flex-1">
                 <div className="uppercase tracking-wide text-sm text-indigo-300 font-semibold mb-2">
                   Simple Keylogger
                 </div>
@@ -71,7 +71,7 @@ export default function Project() {
           {/* Project 3 */}
           <div className="rounded-2xl p-6 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg transition-transform hover:scale-105 text-white">
             <div className="flex flex-col md:flex-row items-center">
-              <div className="flex-1 text-center">
+              <div className="flex-1">
                 <div className="uppercase tracking-wide text-sm text-indigo-300 font-semibold mb-2">
                   Smart Cafeteria System
                 </div>
@@ -106,7 +106,7 @@ export default function Project() {
                 height={120}
                 className="mr-0 md:mr-6 mb-6 md:mb-0 rounded-xl"
               />
-              <div className="flex-1 text-center">
+              <div className="flex-1">
                 <div className="uppercase tracking-wide text-sm text-indigo-300 font-semibold mb-2">
                   Travelocity Web Application
                 </div>

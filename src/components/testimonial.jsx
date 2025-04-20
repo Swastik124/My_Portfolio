@@ -4,10 +4,10 @@ export default function Testimonial() {
       id="testimonials"
       className="relative bg-black min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Transparent black overlay */}
+
       <div className="absolute inset-0 bg-black bg-opacity-60 pointer-events-none"></div>
 
-      {/* Content above overlay */}
+
       <div className="relative z-10 w-full max-w-4xl mx-auto p-4 md:p-10 text-white">
         <div className="text-center">
           <h2 className="text-4xl font-bold bg-white from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-8 tracking-wide border-b-4 border-indigo-500 pb-2 mb-6">
