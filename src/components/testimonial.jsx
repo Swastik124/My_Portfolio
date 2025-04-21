@@ -45,10 +45,11 @@ export default function Testimonial() {
             Achievements
           </h3>
           <ul className="list-disc list-inside text-slate-200 space-y-2 text-sm md:text-base">
-            <li>Participated in SIH 2024</li>
-            <li>Participated in HACK-O-12 (Hackathon) by ISTE SILICON CHAPTER 2024</li>
-            <li>NPTEL Certification on Social Networks</li>
-            <li>Played Kho-Kho at National level</li>
+            <li>Participated in SIH 2024 (Smart India Hackathon) and HACK-O-12 Hackathon, organized by ISTE Silicon Chapter in 2024.</li>
+            <li>Completed the Ethical Hacking course on Udemy, certified by Z-Security.</li>
+            <li>Awarded the Ethical Hacking Bootcamp Certificate from IIIT Bhubaneswar under the ISEA Project Phase 3, supported by MeitY.</li>
+            <li>Completed an NPTEL certification course on Social Networks.</li>
+            <li>KVS National-level Kho-Kho Player.</li>
           </ul>
         </div>
       </div>
