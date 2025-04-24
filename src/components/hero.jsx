@@ -7,9 +7,8 @@ import pdf from '../assets/Swastik_Kumar_Mohanty.pdf'
 
 const Hero = () => {
   return (
-    <section className="relative bg-black overflow-hidden">
-      
-      <div className="absolute inset-0 bg-black bg-opacity-60 pointer-events-none"></div>
+    <section className="relative bg-indigo-900 overflow-hidden">
+  <div className="absolute inset-0 bg-indigo-900 bg-opacity-60 pointer-events-none"></div>w
       
       {/* Content above overlay */}
       <div className="relative z-10 flex flex-col lg:flex-row justify-between items-center p-10 space-y-10 lg:space-y-0 lg:space-x-10 text-white">

@@ -5,7 +5,7 @@ import Key from '../assets/key.png'
 
 export default function Project() {
   return (
-    <div className="bg-black min-h-screen py-16 text-center">
+    <div className="bg-indigo-900 min-h-screen py-16 text-center">
       <div className="max-w-6xl mx-auto px-4">
         <h1 className="text-4xl font-bold text-white mb-12 border-b-4 border-indigo-500 inline-block pb-2">
           Projects

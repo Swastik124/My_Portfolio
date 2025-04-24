@@ -16,9 +16,8 @@ const Nav = () => {
 
   return (
     
-    <div className="relative bg-black">
-      
-      <div className="absolute inset-0 bg-black opacity-60 pointer-events-none"></div>
+    <div className="relative bg-indigo-900">
+  <div className="absolute inset-0 bg-indigo-900 opacity-60 pointer-events-none"></div>
       
       
       <div className="relative z-10">

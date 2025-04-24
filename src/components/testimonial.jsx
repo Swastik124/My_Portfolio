@@ -2,9 +2,9 @@ export default function Testimonial() {
   return (
     <div
       id="testimonials"
-      className="relative bg-black min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative bg-indigo-900 min-h-screen flex items-center justify-center overflow-hidden"
     >
-      <div className="absolute inset-0 bg-black bg-opacity-60 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-indigo-900 bg-opacity-60 pointer-events-none"></div>
 
       <div className="relative z-10 w-full max-w-4xl mx-auto p-4 md:p-10 text-white">
         <div className="text-center mb-12">
