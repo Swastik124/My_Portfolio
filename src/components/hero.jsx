@@ -1,5 +1,5 @@
 import GitHub from '../assets/github.svg'
-import LinkedIn from '../assets/LinkedIn.svg'
+import LinkedIn from '../assets/linkedIn.svg'
 import Instagram from '../assets/instagram.svg'
 import Ppic from '../assets/pic.jpeg'
 import Gmail from '../assets/gmail.svg'
