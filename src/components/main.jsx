@@ -4,6 +4,7 @@ import Project from "./project"
 import Testimonial from "./testimonial"
 import Footer from "./footer"
 import Skills from "./SkillsSection"
+import Contact from "./contact"
 
 const main = () => {
   return (
@@ -20,6 +21,9 @@ const main = () => {
       </section>
       <section id="testimonials">
         <Testimonial />
+      </section>
+      <section id="contact">
+        <Contact />
       </section>
       <Footer />
     </div>

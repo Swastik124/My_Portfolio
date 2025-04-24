@@ -33,6 +33,7 @@ const Nav = () => {
               <a href="#skills" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Skills</a>
               <a href="#projects" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Projects</a>
               <a href="#testimonials" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Testimonials</a>
+              <a href="#contact" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Contact</a>
             </div>
             <div className="block lg:hidden">
               {toggle ? (
@@ -57,6 +58,9 @@ const Nav = () => {
                 </li>
                 <li className="text-white text-xl mb-2 cursor-pointer">
                   <a href="#testimonials" className="hover:text-gray-400">Testimonials</a>
+                </li>
+                <li className="text-white text-xl mb-2 cursor-pointer">
+                  <a href="#contact" className="hover:text-gray-400">Contact</a>
                 </li>
               </ul>
             </div>
