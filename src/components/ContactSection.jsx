@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Github from "../assets/github.svg";
+import GithubIcon from "../assets/github.svg";
 import LinkedinIcon from "../assets/linkedin.svg";
-import Gmail from "../assets/gmail.svg";
+import GmailIcon from "../assets/gmail.svg";
 
 export default function ContactSection() { 
   const [success, setSuccess] = useState(false);
@@ -84,7 +84,7 @@ export default function ContactSection() {
             aria-label="GitHub"
           >
             <img
-              src={Github}
+              src={GithubIcon}
               alt="GitHub"
               className="w-8 h-8 grayscale hover:grayscale-0 transition-all duration-300"
             />
@@ -108,7 +108,7 @@ export default function ContactSection() {
             aria-label="Email"
           >
             <img
-              src={Gmail}
+              src={GmailIcon}
               alt="Email"
               className="w-8 h-8 grayscale hover:grayscale-0 transition-all duration-300"
             />
