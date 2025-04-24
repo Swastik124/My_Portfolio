@@ -3,7 +3,7 @@ import Github from "../assets/github.svg";
 import Linkedin from "../assets/Linkedin.svg";
 import Gmail from "../assets/gmail.svg";
 
-export default function Contact() {
+export default function contact() {
   const [success, setSuccess] = useState(false);
 
   async function handleSubmit(event) {
