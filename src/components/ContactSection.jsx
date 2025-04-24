@@ -1,7 +1,7 @@
 import { useState } from "react";
-import GithubIcon from "../assets/github.svg";
-import LinkedinIcon from "../assets/linkedin.svg";
-import GmailIcon from "../assets/gmail.svg";
+import GithubIcon from "/src/assets/github.svg";
+import LinkedinIcon from "/src/assets/linkedin.svg";
+import GmailIcon from "/src/assets/gmail.svg";
 
 export default function ContactSection() { 
   const [success, setSuccess] = useState(false);
