@@ -4,8 +4,6 @@ import Project from "./project"
 import Testimonial from "./testimonial"
 import Footer from "./footer"
 import Skills from "./SkillsSection"
-import Contact from "./ContactSection"
-import ContactSection from "./ContactSection"
 
 const main = () => {
   return (
