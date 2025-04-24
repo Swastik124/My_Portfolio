@@ -23,7 +23,6 @@ export default function ContactSection() {
       },
       body: json
     });
-
     const result = await response.json();
     if (result.success) {
       setSuccess(true);
