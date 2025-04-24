@@ -23,9 +23,6 @@ const main = () => {
       <section id="testimonials">
         <Testimonial />
       </section>
-      <section id="contact">
-        <ContactSection />
-      </section>
       <Footer />
     </div>
   )

@@ -59,9 +59,6 @@ const Nav = () => {
                 <li className="text-white text-xl mb-2 cursor-pointer">
                   <a href="#testimonials" className="hover:text-gray-400">Testimonials</a>
                 </li>
-                <li className="text-white text-xl mb-2 cursor-pointer">
-                  <a href="#contact" className="hover:text-gray-400">Contact</a>
-                </li>
               </ul>
             </div>
           ) : null}
