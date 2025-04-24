@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Github from "../assets/github.svg";
-import Linkedin from "../assets/linkedin.svg";
+import LinkedinIcon from "../assets/linkedin.svg";
 import Gmail from "../assets/gmail.svg";
 
 export default function ContactSection() { 
@@ -69,14 +69,12 @@ export default function ContactSection() {
           </button>
         </form>
 
-        {/* Success Message */}
-        {success && (
-          <p className="text-green-400 text-center mt-4">
-            Thank you! Your message has been sent.
-          </p>
-        )}
+          {success && (
+            <p className="text-green-400 text-center mt-4">
+              Thank you! Your message has been sent.
+            </p>
+          )}
 
-        {/* Social Links */}
         <div className="flex justify-center gap-6 mt-10">
           <a
             href="https://github.com/Swastik124"
@@ -99,7 +97,7 @@ export default function ContactSection() {
             aria-label="LinkedIn"
           >
             <img
-              src={Linkedin}
+              src={LinkedinIcon}
               alt="LinkedIn"
               className="w-8 h-8 grayscale hover:grayscale-0 transition-all duration-300"
             />
