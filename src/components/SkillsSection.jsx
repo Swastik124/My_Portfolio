@@ -16,6 +16,8 @@ import MysqlIcon from '../assets/mysql.svg'
 import MongodbIcon from '../assets/mongodb.svg'
 import SkillsIllustration from "../assets/skills-illustration.gif"
 import BashIcon from "../assets/bash.svg"
+import GIT from "../assets/gitt.svg"
+import UbuntuIcon from "../assets/ubuntu.svg"
 
 const skills = [
   { name: 'C', icon: CIcon },
@@ -25,27 +27,35 @@ const skills = [
   { name: 'CSS', icon: CssIcon },
   { name: 'JavaScript', icon: JsIcon },
   { name: 'BASH', icon: BashIcon },
-]
+];
+
 
 const tools = [
   { name: 'VS Code', icon: VsCodeIcon },
   { name: 'Eclipse', icon: EclipseIcon },
+  { name: 'Git', icon: GIT },
+  { name: 'GitHub', icon: GithubIcon },
   { name: 'Jupyter Notebook', icon: JupyterIcon },
   { name: 'Postman API', icon: PostmanIcon },
-]
+];
+
 
 const frameworks = [
-  { name: 'Linux', icon: LinuxIcon },
-  { name: 'GitHub', icon: GithubIcon },
-  { name: 'WordPress', icon: WordpressIcon },
   { name: 'React', icon: ReactIcon },
+  { name: 'WordPress', icon: WordpressIcon },
   { name: 'Bash Scripting', icon: BashIcon },
-]
+];
+
+const platforms = [
+  { name: 'Linux', icon: LinuxIcon },
+  { name: 'Ubuntu', icon: UbuntuIcon },
+];
+
 
 const databases = [
   { name: 'MySQL', icon: MysqlIcon },
   { name: 'MongoDB', icon: MongodbIcon },
-]
+];
 
 const SkillsSection = () => {
   return (
@@ -94,6 +104,19 @@ const SkillsSection = () => {
                 <div key={framework.name} className="flex flex-col items-center">
                   <img src={framework.icon} alt={framework.name} width={40} height={40} className="mb-2"/>
                   <span className="text-slate-300">{framework.name}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Frameworks & Technologies */}
+          <div className="mb-8">
+            <h3 className="text-2xl mb-2 text-slate-200">Platforms</h3>
+            <div className="flex flex-wrap gap-6">
+              {platforms.map(pt => (
+                <div key={pt.name} className="flex flex-col items-center">
+                  <img src={pt.icon} alt={pt.name} width={40} height={40} className="mb-2"/>
+                  <span className="text-slate-300">{pt.name}</span>
                 </div>
               ))}
             </div>
