@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Github from "../assets/github.svg";
-import Linkedin from "../assets/linkedin.svg"; 
+import Linkedin from "../assets/linkedIn.svg"; 
 import Gmail from "../assets/gmail.svg";
 
 export default function ContactSection() { 
