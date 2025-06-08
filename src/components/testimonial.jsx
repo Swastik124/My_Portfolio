@@ -18,7 +18,7 @@ export default function Testimonial() {
             Highlighted Projects
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-            <div className="bg-white/20 backdrop-blur-md shadow-md rounded-lg p-4 md:p-6">
+            <div className="bg-white/20 backdrop-blur-md shadow-md rounded-lg p-4 md:p-6 transform transition duration-300 ease-in-out hover:scale-105 hover:bg-white/30">
               <h4 className="text-base md:text-lg font-bold mb-2 text-indigo-200 text-center">
                 Advanced Keylogger
               </h4>
@@ -26,8 +26,8 @@ export default function Testimonial() {
                 Python-based system monitoring tool integrating keylogging, clipboard/data capture, audio recording, and screenshot automation. Demonstrated cybersecurity vulnerabilities in Windows environments. Automated secure logging with multi-module integration.
               </p>
             </div>
-
-            <div className="bg-white/20 backdrop-blur-md shadow-md rounded-lg p-4 md:p-6">
+          
+            <div className="bg-white/20 backdrop-blur-md shadow-md rounded-lg p-4 md:p-6 transform transition duration-300 ease-in-out hover:scale-105 hover:bg-white/30">
               <h4 className="text-base md:text-lg font-bold mb-2 text-indigo-200 text-center">
                 Smart Cafeteria System
               </h4>
@@ -49,7 +49,11 @@ export default function Testimonial() {
             </li>
             <li className="flex">
               <span className="mr-2">•</span>
-              <span>Completed the Ethical Hacking course on Udemy, certified by Z-Security.</span>
+              <span>Summer Internship MERN Stack Web Development Certificate by CodeBeat.</span>
+            </li>
+            <li className="flex">
+              <span className="mr-2">•</span>
+              <span>Completed the Ethical Hacking course certified by Z-Security.</span>
             </li>
             <li className="flex">
               <span className="mr-2">•</span>
@@ -57,11 +61,15 @@ export default function Testimonial() {
             </li>
             <li className="flex">
               <span className="mr-2">•</span>
-              <span>Completed an NPTEL certification course on Social Networks.</span>
+              <span>Cybersecurity Analyst Job Simulation (Tata), Phishing Simulation (Mastercard) – Forage.</span>
             </li>
             <li className="flex">
               <span className="mr-2">•</span>
               <span>KVS National-level Kho-Kho Player.</span>
+            </li>
+            <li className="flex">
+              <span className="mr-2">•</span>
+              <span>Problem-solving, Team Collaboration, Attention to Detail, Adaptability, Time Management.</span>
             </li>
           </ul>
         </div>

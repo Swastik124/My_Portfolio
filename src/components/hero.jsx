@@ -2,6 +2,7 @@ import GitHub from '../assets/github.svg'
 import LinkedIn from '../assets/linkedIn.svg'
 import Instagram from '../assets/instagram.svg'
 import Ppic from '../assets/pic.jpeg'
+import Tryhackme from '../assets/tyrhackme.svg'
 import Gmail from '../assets/gmail.svg'
 import pdf from '../assets/Swastik_Kumar_Mohanty.pdf'
 
@@ -53,6 +54,9 @@ const Hero = () => {
             </a>
             <a href="mailto:swastikmohanty124@gmail.com" target="_blank" rel="noopener noreferrer">
               <img src={Gmail} alt="Gmail" width={40} height={40} />
+            </a>
+            <a href="https://tryhackme.com/p/swastikmohanty12" target="_blank" rel="noopener noreferrer">
+              <img src={Tryhackme} alt="Gmail" width={40} height={40} />
             </a>
           </div>
         </div>
