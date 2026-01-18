@@ -4,7 +4,7 @@ import Instagram from '../assets/instagram.svg'
 import Ppic from '../assets/pic.jpeg'
 import Tryhackme from '../assets/tyrhackme.svg'
 import Gmail from '../assets/gmail.svg'
-import pdf from '../assets/Swastik_Kumar_Mohanty.pdf'
+import pdf from '../assets/Swastik_Kumar_Mohanty(Cyber).pdf'
 
 const Hero = () => {
   return (
@@ -66,3 +66,4 @@ const Hero = () => {
 }
 
 export default Hero
+
