@@ -45,6 +45,10 @@ export default function Testimonial() {
           <ul className="space-y-2 text-sm md:text-base text-slate-200">
             <li className="flex">
               <span className="mr-2">•</span>
+              <span>PM SHRI Scholarship Awardee – Ministry of Education, Government of India.</span>
+            </li>
+            <li className="flex">
+              <span className="mr-2">•</span>
               <span>Participated in SIH 2024 (Smart India Hackathon) and HACK-O-12 Hackathon, organized by ISTE Silicon Chapter in 2024.</span>
             </li>
             <li className="flex">
@@ -67,9 +71,30 @@ export default function Testimonial() {
               <span className="mr-2">•</span>
               <span>KVS National-level Kho-Kho Player.</span>
             </li>
+          </ul>
+          <h3 className="text-lg md:text-xl font-semibold mt-8 mb-4 text-white text-center">
+            Soft Skills
+          </h3>
+          <ul className="space-y-2 text-sm md:text-base text-slate-200">
             <li className="flex">
               <span className="mr-2">•</span>
-              <span>Problem-solving, Team Collaboration, Attention to Detail, Adaptability, Time Management.</span>
+              <span>Problem-solving</span>
+            </li>
+            <li className="flex">
+              <span className="mr-2">•</span>
+              <span>Team Collaboration</span>
+            </li>
+            <li className="flex">
+              <span className="mr-2">•</span>
+              <span>Attention to Detail</span>
+            </li>
+            <li className="flex">
+              <span className="mr-2">•</span>
+              <span>Adaptability</span>
+            </li>
+            <li className="flex">
+              <span className="mr-2">•</span>
+              <span>Time Management</span>
             </li>
           </ul>
         </div>

@@ -2,6 +2,9 @@ import Keylogger from '../assets/keylogger.png'
 import Travelocity from '../assets/Travelocity.svg'
 import Food from '../assets/food.svg'
 import Key from '../assets/key.png'
+import Mushroom from '../assets/mushroom.svg'
+import Password from '../assets/password.svg'
+import Console from '../assets/console.svg'
 
 export default function Project() {
   return (
@@ -76,7 +79,7 @@ export default function Project() {
                   Smart Cafeteria System
                 </div>
                 <a
-                  href="https://github.com/Swastik124/speech-to-text-transcription.git"
+                  href="https://github.com/Swastik124/Smart-Cafeteria-Ordering-System.git"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-300 hover:text-blue-100 underline"
@@ -122,6 +125,94 @@ export default function Project() {
                 This project employs technologies such as HTML, CSS, JavaScript, and relevant frameworks (React+Vite) to mimic real-world functionalities. It serves as an educational resource and a portfolio piece to showcase the ability to recreate complex, real-world web applications.
                 </p>
               </div>
+            </div>
+          </div>
+
+          {/* Project 5 */}
+          <div className="rounded-2xl p-6 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg transition-transform hover:scale-105 text-white">
+            <div className="flex flex-col md:flex-row items-center">
+              
+              <div className="flex-1">
+                <div className="uppercase tracking-wide text-sm text-indigo-300 font-semibold mb-2">
+                  Password Manager
+                </div>
+                <a
+                  href="https://github.com/Swastik124/Password-Manager.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-300 hover:text-blue-100 underline"
+                >
+                  View Project
+                </a>
+                <p className="mt-2 text-slate-200">
+                  Python-based password manager with strong random generation, encryption, and JSON vault storage. Includes CLI workflows for creating, retrieving, and rotating credentials with input validation.
+                </p>
+              </div>
+              <img
+                src={Password}
+                alt="Password Manager"
+                width={120}
+                height={120}
+                className="ml-0 md:ml-6 mt-6 md:mt-0 rounded-xl"
+              />
+            </div>
+          </div>
+
+          {/* Project 6 */}
+          <div className="rounded-2xl p-6 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg transition-transform hover:scale-105 text-white">
+            <div className="flex flex-col md:flex-row items-center">
+            <img
+                src={Mushroom}
+                alt="ThermoMap"
+                width={120}
+                height={120}
+                className="ml-0 md:ml-0 mt-6 md:mt-0 rounded-xl"
+              />
+              <div className="flex-1">
+                <div className="uppercase tracking-wide text-sm text-indigo-300 font-semibold mb-2">
+                  ThermoMap
+                </div>
+                <a
+                  href="https://github.com/Swastik124/Thermo-Map.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-300 hover:text-blue-100 underline"
+                >
+                  View Project
+                </a>
+                <p className="mt-2 text-slate-200">
+                  IoT-powered temperature and humidity mapping that logs sensor data and visualizes trends on a lightweight dashboard. Focused on clear data capture, alert thresholds, and quick insights.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 7 */}
+          <div className="rounded-2xl p-6 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg transition-transform hover:scale-105 text-white">
+            <div className="flex flex-col md:flex-row items-center">
+              <div className="flex-1">
+                <div className="uppercase tracking-wide text-sm text-indigo-300 font-semibold mb-2">
+                  Console Gaming Website
+                </div>
+                <a
+                  href="https://github.com/Swastik124/Console-Gaming-Website.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-300 hover:text-blue-100 underline"
+                >
+                  View Project
+                </a>
+                <p className="mt-2 text-slate-200">
+                  Web experience showcasing console games with catalog browsing, featured titles, and responsive UI. Built to demonstrate front-end structure, routing, and component-driven design.
+                </p>
+              </div>
+              <img
+                src={Console}
+                alt="Console Gaming Website"
+                width={120}
+                height={120}
+                className="ml-0 md:ml-6 mt-6 md:mt-0 rounded-xl"
+              />
             </div>
           </div>
         </div>
