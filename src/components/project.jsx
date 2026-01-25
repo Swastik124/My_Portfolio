@@ -27,7 +27,7 @@ export default function Project() {
                   rel="noopener noreferrer"
                   className="text-blue-300 hover:text-blue-100 underline"
                 >
-                  View Project
+                  Repo. Link
                 </a>
                 <p className="mt-2 text-slate-200">
                   This project is a Python-based keylogger that collects keystrokes, clipboard data, system information, microphone audio, and screenshots. The collected data is encrypted using the cryptography library and sent securely via email for analysis. It is designed for educational purposes and cybersecurity research.
@@ -62,7 +62,7 @@ export default function Project() {
                   rel="noopener noreferrer"
                   className="text-blue-300 hover:text-blue-100 underline"
                 >
-                  View Project
+                  Repo. Link
                 </a>
                 <p className="mt-2 text-slate-200">
                 A simple keylogger in Python using pynput that records keystrokes and saves them to log.txt. It handles special keys like space and enter while running in the background. For educational and ethical use only. 🚀
@@ -84,7 +84,7 @@ export default function Project() {
                   rel="noopener noreferrer"
                   className="text-blue-300 hover:text-blue-100 underline"
                 >
-                  View Project
+                  Repo. Link
                 </a>
                 <p className="mt-2 text-slate-200">
                   A smart cafeteria ordering system using ESP32, Bluetooth, and WiFi that allows users to place orders via Bluetooth commands and view real-time updates on a web interface. Orders are logged on an SD card, and the menu is dynamically loaded from a JSON file. 🚀
@@ -119,6 +119,15 @@ export default function Project() {
                   rel="noopener noreferrer"
                   className="text-blue-300 hover:text-blue-100 underline"
                 >
+                  Repo. Link
+                </a>
+                <br />
+                <a
+                  href="https://travelocity-web-application.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-300 hover:text-blue-100 underline"
+                >
                   View Project
                 </a>
                 <p className="mt-2 text-slate-200">
@@ -142,7 +151,7 @@ export default function Project() {
                   rel="noopener noreferrer"
                   className="text-blue-300 hover:text-blue-100 underline"
                 >
-                  View Project
+                  Repo. Link
                 </a>
                 <p className="mt-2 text-slate-200">
                   Python-based password manager with strong random generation, encryption, and JSON vault storage. Includes CLI workflows for creating, retrieving, and rotating credentials with input validation.
@@ -178,7 +187,7 @@ export default function Project() {
                   rel="noopener noreferrer"
                   className="text-blue-300 hover:text-blue-100 underline"
                 >
-                  View Project
+                  Repo. Link
                 </a>
                 <p className="mt-2 text-slate-200">
                   IoT-powered temperature and humidity mapping that logs sensor data and visualizes trends on a lightweight dashboard. Focused on clear data capture, alert thresholds, and quick insights.
@@ -196,6 +205,15 @@ export default function Project() {
                 </div>
                 <a
                   href="https://github.com/Swastik124/Console-Gaming-Website.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-300 hover:text-blue-100 underline"
+                >
+                  Repo. Link
+                </a>
+                <br />
+                <a
+                  href="https://console-gaming-website.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-300 hover:text-blue-100 underline"

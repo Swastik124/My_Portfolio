@@ -18,14 +18,15 @@ import SkillsIllustration from "../assets/skills-illustration.gif"
 import BashIcon from "../assets/bash.svg"
 import GIT from "../assets/gitt.svg"
 import UbuntuIcon from "../assets/ubuntu.svg"
+import WiresharkIcon from '../assets/wireshark.svg'
+import AircrackIcon from '../assets/aircrack-ng.jpg'
+import Nmap from '../assets/nmap.png'
+import Burpsuite from '../assets/BurpSuite.svg'
 
 const skills = [
   { name: 'C', icon: CIcon },
   { name: 'Java', icon: JavaIcon },
   { name: 'Python', icon: PythonIcon },
-  { name: 'HTML', icon: HtmlIcon },
-  { name: 'CSS', icon: CssIcon },
-  { name: 'JavaScript', icon: JsIcon },
   { name: 'BASH', icon: BashIcon },
 ];
 
@@ -36,25 +37,32 @@ const tools = [
   { name: 'Git', icon: GIT },
   { name: 'GitHub', icon: GithubIcon },
   { name: 'Jupyter Notebook', icon: JupyterIcon },
-  { name: 'Postman API', icon: PostmanIcon },
 ];
 
 
 const frameworks = [
   { name: 'React', icon: ReactIcon },
   { name: 'WordPress', icon: WordpressIcon },
-  { name: 'Bash Scripting', icon: BashIcon },
+  { name: 'HTML', icon: HtmlIcon },
+  { name: 'CSS', icon: CssIcon },
+  { name: 'JavaScript', icon: JsIcon },
 ];
 
 const platforms = [
   { name: 'Linux', icon: LinuxIcon },
-  { name: 'Ubuntu', icon: UbuntuIcon },
 ];
 
 
 const databases = [
   { name: 'MySQL', icon: MysqlIcon },
   { name: 'MongoDB', icon: MongodbIcon },
+];
+
+const cybersecurityTools = [
+  { name: 'Wireshark', icon: WiresharkIcon },
+  { name: 'Nmap', icon: Nmap },
+  { name: 'Burp Suite', icon: Burpsuite },
+  { name: 'Aircrack-ng', icon: AircrackIcon },
 ];
 
 const SkillsSection = () => {
@@ -98,7 +106,7 @@ const SkillsSection = () => {
 
           {/* Frameworks & Technologies */}
           <div className="mb-8">
-            <h3 className="text-2xl mb-2 text-slate-200">Technologies / Frameworks</h3>
+            <h3 className="text-2xl mb-2 text-slate-200">Web Technologies / Frameworks</h3>
             <div className="flex flex-wrap gap-6">
               {frameworks.map(framework => (
                 <div key={framework.name} className="flex flex-col items-center">
@@ -130,6 +138,29 @@ const SkillsSection = () => {
                 <div key={db.name} className="flex flex-col items-center">
                   <img src={db.icon} alt={db.name} width={40} height={40} className="mb-2"/>
                   <span className="text-slate-300">{db.name}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Cybersecurity Tools */}
+          <div className="mt-8">
+            <h3 className="text-2xl mb-2 text-slate-200">Cybersecurity Tools</h3>
+            <div className="flex flex-wrap gap-6">
+              {cybersecurityTools.map(tool => (
+                <div key={tool.name} className="flex flex-col items-center">
+                  {tool.icon ? (
+                    <img
+                      src={tool.icon}
+                      alt={tool.name}
+                      className="mb-2 w-10 h-10 object-contain rounded-md bg-white/10 border border-indigo-300"
+                    />
+                  ) : (
+                    <div className="w-10 h-10 mb-2 flex items-center justify-center rounded-md border border-indigo-300 text-indigo-200">
+                      <span className="text-xs">{tool.name[0]}</span>
+                    </div>
+                  )}
+                  <span className="text-slate-300">{tool.name}</span>
                 </div>
               ))}
             </div>
