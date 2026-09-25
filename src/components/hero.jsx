@@ -35,13 +35,13 @@ const Hero = () => {
               >
                 Download Web Resume
               </a>
-              <a
+              {/* <a
                 href={pdfCore}
                 download="Swastik_Kumar_Mohanty_Core_Resume.pdf"
                 className="border border-indigo-200 text-indigo-200 px-6 py-3 rounded-full hover:bg-indigo-800 hover:text-white transition-colors duration-200"
               >
                 Core/Electronics Resume
-              </a>
+              </a> */}
               <a
                 href={pdfCyber}
                 download="Swastik_Kumar_Mohanty_Cyber_Resume.pdf"
