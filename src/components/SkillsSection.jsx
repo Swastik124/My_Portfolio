@@ -22,6 +22,11 @@ import WiresharkIcon from '../assets/wireshark.svg'
 import AircrackIcon from '../assets/aircrack-ng.jpg'
 import Nmap from '../assets/nmap.png'
 import Burpsuite from '../assets/BurpSuite.svg'
+import Nuclei from '../assets/nuclei.svg'
+import Katana from '../assets/katana.png'
+import TruffleHog from '../assets/trufflehog.png'
+import Docker from '../assets/docker.svg'
+import JADX from '../assets/jadx.png'
 
 const skills = [
   { name: 'C', icon: CIcon },
@@ -52,6 +57,11 @@ const platforms = [
   { name: 'Linux', icon: LinuxIcon },
 ];
 
+// DevOps / containerization — newly added
+const devops = [
+  { name: 'Docker', icon: Docker },
+];
+
 
 const databases = [
   { name: 'MySQL', icon: MysqlIcon },
@@ -63,7 +73,33 @@ const cybersecurityTools = [
   { name: 'Nmap', icon: Nmap },
   { name: 'Burp Suite', icon: Burpsuite },
   { name: 'Aircrack-ng', icon: AircrackIcon },
+  // newly added from recent internship experience
+ // { name: 'Metasploit', icon: null },
+  //{ name: 'Bettercap', icon: null },
+  { name: 'JADX-GUI', icon: JADX },
+  { name: 'Nuclei', icon: Nuclei },
+  { name: 'Katana', icon: Katana },
+  { name: 'TruffleHog', icon: TruffleHog },
 ];
+
+// Small helper so every category can gracefully fall back to an
+// initial-letter badge when a dedicated icon asset isn't available yet.
+const SkillIcon = ({ item }) => (
+  <div className="flex flex-col items-center">
+    {item.icon ? (
+      <img
+        src={item.icon}
+        alt={item.name}
+        className="mb-2 w-10 h-10 object-contain"
+      />
+    ) : (
+      <div className="w-10 h-10 mb-2 flex items-center justify-center rounded-md bg-white/10 border border-indigo-300 text-indigo-200">
+        <span className="text-xs">{item.name[0]}</span>
+      </div>
+    )}
+    <span className="text-slate-300">{item.name}</span>
+  </div>
+);
 
 const SkillsSection = () => {
   return (
@@ -83,10 +119,7 @@ const SkillsSection = () => {
             <h3 className="text-2xl mb-2 text-slate-200">Languages</h3>
             <div className="flex flex-wrap gap-6">
               {skills.map(skill => (
-                <div key={skill.name} className="flex flex-col items-center">
-                  <img src={skill.icon} alt={skill.name} width={40} height={40} className="mb-2"/>
-                  <span className="text-slate-300">{skill.name}</span>
-                </div>
+                <SkillIcon key={skill.name} item={skill} />
               ))}
             </div>
           </div>
@@ -96,10 +129,7 @@ const SkillsSection = () => {
             <h3 className="text-2xl mb-2 text-slate-200">Developer Tools</h3>
             <div className="flex flex-wrap gap-6">
               {tools.map(tool => (
-                <div key={tool.name} className="flex flex-col items-center">
-                  <img src={tool.icon} alt={tool.name} width={40} height={40} className="mb-2"/>
-                  <span className="text-slate-300">{tool.name}</span>
-                </div>
+                <SkillIcon key={tool.name} item={tool} />
               ))}
             </div>
           </div>
@@ -109,23 +139,27 @@ const SkillsSection = () => {
             <h3 className="text-2xl mb-2 text-slate-200">Web Technologies / Frameworks</h3>
             <div className="flex flex-wrap gap-6">
               {frameworks.map(framework => (
-                <div key={framework.name} className="flex flex-col items-center">
-                  <img src={framework.icon} alt={framework.name} width={40} height={40} className="mb-2"/>
-                  <span className="text-slate-300">{framework.name}</span>
-                </div>
+                <SkillIcon key={framework.name} item={framework} />
               ))}
             </div>
           </div>
 
-          {/* Frameworks & Technologies */}
+          {/* Platforms */}
           <div className="mb-8">
             <h3 className="text-2xl mb-2 text-slate-200">Platforms</h3>
             <div className="flex flex-wrap gap-6">
               {platforms.map(pt => (
-                <div key={pt.name} className="flex flex-col items-center">
-                  <img src={pt.icon} alt={pt.name} width={40} height={40} className="mb-2"/>
-                  <span className="text-slate-300">{pt.name}</span>
-                </div>
+                <SkillIcon key={pt.name} item={pt} />
+              ))}
+            </div>
+          </div>
+
+          {/* DevOps */}
+          <div className="mb-8">
+            <h3 className="text-2xl mb-2 text-slate-200">DevOps</h3>
+            <div className="flex flex-wrap gap-6">
+              {devops.map(dv => (
+                <SkillIcon key={dv.name} item={dv} />
               ))}
             </div>
           </div>
@@ -135,10 +169,7 @@ const SkillsSection = () => {
             <h3 className="text-2xl mb-2 text-slate-200">Databases</h3>
             <div className="flex flex-wrap gap-6">
               {databases.map(db => (
-                <div key={db.name} className="flex flex-col items-center">
-                  <img src={db.icon} alt={db.name} width={40} height={40} className="mb-2"/>
-                  <span className="text-slate-300">{db.name}</span>
-                </div>
+                <SkillIcon key={db.name} item={db} />
               ))}
             </div>
           </div>
@@ -148,20 +179,7 @@ const SkillsSection = () => {
             <h3 className="text-2xl mb-2 text-slate-200">Cybersecurity Tools</h3>
             <div className="flex flex-wrap gap-6">
               {cybersecurityTools.map(tool => (
-                <div key={tool.name} className="flex flex-col items-center">
-                  {tool.icon ? (
-                    <img
-                      src={tool.icon}
-                      alt={tool.name}
-                      className="mb-2 w-10 h-10 object-contain rounded-md bg-white/10 border border-indigo-300"
-                    />
-                  ) : (
-                    <div className="w-10 h-10 mb-2 flex items-center justify-center rounded-md border border-indigo-300 text-indigo-200">
-                      <span className="text-xs">{tool.name[0]}</span>
-                    </div>
-                  )}
-                  <span className="text-slate-300">{tool.name}</span>
-                </div>
+                <SkillIcon key={tool.name} item={tool} />
               ))}
             </div>
           </div>

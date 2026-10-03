@@ -1,5 +1,6 @@
 import Nav from "./nav"
 import Hero from "./hero"
+import Experience from "./experience"
 import Project from "./project"
 import Testimonial from "./testimonial"
 import Footer from "./footer"
@@ -12,6 +13,9 @@ const main = () => {
         <Nav />
       <section id="hero">
         <Hero />
+      </section>
+      <section id="experience">
+        <Experience />
       </section>
       <section id="skills">
         <Skills />

@@ -1,11 +1,9 @@
 import GitHub from '../assets/github.svg'
 import LinkedIn from '../assets/linkedIn.svg'
-import Instagram from '../assets/instagram.svg'
 import Ppic from '../assets/pic.jpeg'
 import Tryhackme from '../assets/tyrhackme.svg'
 import Gmail from '../assets/gmail.svg'
 import pdfWeb from '../assets/Swastik_Kumar_Mohanty(Web).pdf'
-import pdfCore from '../assets/Swastik_Kumar_Mohanty(CORE).pdf'
 import pdfCyber from '../assets/Swastik_Kumar_Mohanty(Cyber).pdf'
 
 const Hero = () => {
@@ -26,28 +24,21 @@ const Hero = () => {
             A Electronics & Instrumentation Engineering student passionate about cybersecurity, with hands-on experience in programming, network fundamentals, and web development. Skilled in solving complex challenges through projects and continuous learning. Committed to contributing to a secure digital world by adapting and growing with evolving technologies.
           </p>
           <div className="mt-6 space-y-2">
-            <p className="text-sm text-indigo-200">Primary resume: Web/Frontend. Pick the version that matches the role.</p>
+            <p className="text-sm text-indigo-200">Primary resume: Cybersecurity. Pick the version that matches the role.</p>
             <div className="flex flex-wrap gap-3">
+              <a
+                href={pdfCyber}
+                download="Swastik_Kumar_Mohanty_Cybersecurity_Resume.pdf"
+                className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-full hover:bg-indigo-800 hover:text-white transition-colors duration-200"
+              >
+                Download Cybersecurity Resume
+              </a>
               <a
                 href={pdfWeb}
                 download="Swastik_Kumar_Mohanty_Web_Resume.pdf"
-                className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-full hover:bg-indigo-800 hover:text-white transition-colors duration-200"
-              >
-                Download Web Resume
-              </a>
-              {/* <a
-                href={pdfCore}
-                download="Swastik_Kumar_Mohanty_Core_Resume.pdf"
                 className="border border-indigo-200 text-indigo-200 px-6 py-3 rounded-full hover:bg-indigo-800 hover:text-white transition-colors duration-200"
               >
-                Core/Electronics Resume
-              </a> */}
-              <a
-                href={pdfCyber}
-                download="Swastik_Kumar_Mohanty_Cyber_Resume.pdf"
-                className="border border-indigo-200 text-indigo-200 px-6 py-3 rounded-full hover:bg-indigo-800 hover:text-white transition-colors duration-200"
-              >
-                Cybersecurity Resume
+                Web/Frontend Resume
               </a>
             </div>
           </div>

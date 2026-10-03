@@ -30,6 +30,7 @@ const Nav = () => {
           </div>
           <div className="space-x-4">
             <div className="hidden lg:block space-x-2">
+              <a href="#experience" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Experience</a>
               <a href="#skills" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Skills</a>
               <a href="#projects" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Projects</a>
               <a href="#testimonials" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Testimonials</a>
@@ -50,6 +51,9 @@ const Nav = () => {
           {toggle ? (
             <div className="flex justify-between ml-10">
               <ul>
+                <li className="text-white text-xl mb-2 cursor-pointer ">
+                  <a href="#experience" className="hover:text-gray-400">Experience</a>
+                </li>
                 <li className="text-white text-xl mb-2 cursor-pointer ">
                   <a href="#skills" className="hover:text-gray-400">Skills</a>
                 </li>
