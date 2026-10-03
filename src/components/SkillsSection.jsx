@@ -23,9 +23,9 @@ import AircrackIcon from '../assets/aircrack-ng.jpg'
 import Nmap from '../assets/nmap.png'
 import Burpsuite from '../assets/BurpSuite.svg'
 import Nuclei from '../assets/nuclei.svg'
-import Katana from '../assets/katana.png'
+import Katana from '../assets/Katana.png'
 import TruffleHog from '../assets/trufflehog.png'
-import Docker from '../assets/docker.svg'
+import Docker from '../assets/Docker.svg'
 import JADX from '../assets/jadx.png'
 
 const skills = [
