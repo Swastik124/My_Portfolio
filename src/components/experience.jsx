@@ -1,3 +1,6 @@
+import AppsecureCertificate from '../assets/Appsecure_Certificate.pdf'
+import JazzeeCertificate from '../assets/Jazzee_Internship_Certificate.pdf'
+
 export default function Experience() {
   return (
     <div className="bg-indigo-900 min-h-screen py-16 text-center">
@@ -14,7 +17,14 @@ export default function Experience() {
                 <h3 className="text-2xl font-semibold text-indigo-200">
                   Penetration Testing Intern
                 </h3>
-                <p className="text-indigo-300">AppSecure Security</p>
+                <a
+                  href="https://www.appsecure.security/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-indigo-300 hover:text-white hover:underline"
+                >
+                  AppSecure Security
+                </a>
               </div>
               <span className="text-sm text-slate-300 mt-2 md:mt-0">
                 July 2026 – Sep 2026
@@ -37,6 +47,14 @@ export default function Experience() {
                 confidentiality.
               </li>
             </ul>
+            <a
+              href={AppsecureCertificate}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-5 rounded-full bg-white px-5 py-2 text-sm font-semibold text-indigo-700 transition-colors hover:bg-indigo-200"
+            >
+              View internship certificate
+            </a>
           </div>
 
           {/* Jazzee Technologies */}
@@ -46,7 +64,14 @@ export default function Experience() {
                 <h3 className="text-2xl font-semibold text-indigo-200">
                   Cybersecurity &amp; AI Intern
                 </h3>
-                <p className="text-indigo-300">Jazzee Technologies</p>
+                <a
+                  href="https://www.jazzeetechnologies.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-indigo-300 hover:text-white hover:underline"
+                >
+                  Jazzee Technologies
+                </a>
               </div>
               <span className="text-sm text-slate-300 mt-2 md:mt-0">
                 Jan 2025 – June 2026
@@ -64,6 +89,14 @@ export default function Experience() {
                 triage skills.
               </li>
             </ul>
+            <a
+              href={JazzeeCertificate}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-5 rounded-full bg-white px-5 py-2 text-sm font-semibold text-indigo-700 transition-colors hover:bg-indigo-200"
+            >
+              View internship certificate
+            </a>
           </div>
         </div>
       </div>
